@@ -9,7 +9,8 @@ money_machine = MoneyMachine()
 
 
 while True:
-    order = input("What would you like? (espresso/latte/cappuccino): ").lower()
+    print(menu.get_items())
+    order = input("What would you like? : ").lower()
 
     if order == 'off':
         exit()
